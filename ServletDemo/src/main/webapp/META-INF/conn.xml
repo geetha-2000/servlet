@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<Resource name="jdbc/ServletDemo" auth="container" type="javax.sql.dataSource" 
+maxActive="25" maxIdle="5" maxWait="10000"
+    username="root" password="geetha@25" driverClassName="com.sql.jdbc.Driver" 
+    url="jdbc:mysql://127.0.0.1:/3306/ServletDemo?useSSL=false"></Resource>
+</context>

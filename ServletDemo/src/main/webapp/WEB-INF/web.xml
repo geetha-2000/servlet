@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>  
+  
+<servlet>  
+<servlet-name>Register</servlet-name>  
+<servlet-class>Register</servlet-class>  
+</servlet>  
+
+<servlet>  
+<servlet-name>ShowUserSevlet</servlet-name>  
+<servlet-class>ShowUserSevlet</servlet-class>  
+</servlet>  
+
+<servlet>  
+<servlet-name>EditScreenServlet</servlet-name>  
+<servlet-class>EditScreenServlet</servlet-class>  
+</servlet> 
+
+<servlet>  
+<servlet-name>EditServlet</servlet-name>  
+<servlet-class>EditServlet</servlet-class>  
+</servlet> 
+  
+<servlet-mapping>  
+<servlet-name>Register</servlet-name>  
+<url-pattern>/servlet/Register</url-pattern>  
+</servlet-mapping>  
+  
+<welcome-file-list>  
+    <welcome-file>register.html</welcome-file>  
+</welcome-file-list>  
+  
+</web-app>  
